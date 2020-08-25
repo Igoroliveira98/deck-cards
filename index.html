@@ -16,47 +16,6 @@
         <button class="btn" onclick="displayCards()">Escolher Cartas</button>
     </div>
 
-    <script>
-
-    async function getCards() {
-            try{
-                const response = await fetch("http://localhost:4567/");
-
-                const dataCards = await response.json();
-
-                console.log(dataCards)
-
-                showCards(dataCards)
-
-            }catch(error) {
-                console.error(error);
-            }
-
-        }
-
-        getCards()
-
-        function showCards(datas) {
-            output = "";
-            let btn = document.querySelector(".btn");
-
-            for(data of datas) {
-                output += `
-                    <div class="card">
-                        <img src="${data.image}" alt="card">
-                        <h2>${data.suit}</h2>
-                        <p>Value: ${data.value}<p>
-                    </div>
-                `
-            }
-
-            btn.addEventListener("click", e => {
-                    e.preventDefault()
-                    document.querySelector(".cards").innerHTML = output
-            })
-
-
-        }
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
