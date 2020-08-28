@@ -32,6 +32,7 @@ function showCards(datas) {
 
     btn.addEventListener("click", e => {
             e.preventDefault()
+            document.querySelector(".title").innerHTML = "As cartas sorteadas são:"
             document.querySelector(".cards").innerHTML = output
     })
 
