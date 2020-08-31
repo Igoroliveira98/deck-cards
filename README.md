@@ -40,6 +40,8 @@ After click on button, the page will go show two random cards, show the name and
 - Uma página simples para renderizar o conteúdo da API.
 - Buscar os dados do Servidor utilizando o fetch.
 
+**Front End - English**
+
 - One simple page for render API content
 - search data of server using fetch
 
@@ -48,6 +50,8 @@ After click on button, the page will go show two random cards, show the name and
 - Criação da estrutura do servidor utilizando o express.
 - Configuração do CORS para permitir que os recursos do servidor sejam acessados.
 - Acesso a API do deckofcards para buscar os dados.
+
+**Back End - English**
 
 - Build a server using express.
 - Config the CORS for allow that server API to be accessed.
