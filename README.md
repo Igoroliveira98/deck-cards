@@ -20,7 +20,7 @@ npm install
 
 Após clicar no botão, a página irá sortear duas cartas de um baralho de forma aleatória, mostrando seu nome e seu valor.
 
-After click on buttom, the page will go show two random cards, show the name and value. 
+After click on button, the page will go show two random cards, show the name and value. 
 
 ## ⚙️ Linguagem, pacotes e ferramentas utilizadas:
 
