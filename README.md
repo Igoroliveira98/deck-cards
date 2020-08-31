@@ -2,7 +2,9 @@
 
 # Sorteio de Cartas 
 
-Hey rockers!! Esse é um simples projeto que foi feito com o objetivo de colocar em prática os conceitos aprendidos nas aulas da Rocketseat sobre coneção com o Back End usando Fetch e Axios.
+Hey rockers!! Esse é um simples projeto que foi feito com o objetivo de colocar em prática os conceitos aprendidos nas aulas da Rocketseat sobre conexão com o Backend usando Fetch e Axios.
+
+Hey rockers!! this is a simple project that i made as objective for practice concepts learned in the class of rocketseat about link backend with front end using Fetch and Axios.
  
 **Download do Projeto:** 
 ```
@@ -14,9 +16,11 @@ https://github.com/Igoroliveira98/airplane-game.git
 npm install
 ```
 
-## 👨🏻‍💻 Resumo: 
+## 👨🏻‍💻 Resumo/resume: 
 
 Após clicar no botão, a página irá sortear duas cartas de um baralho de forma aleatória, mostrando seu nome e seu valor.
+
+After click on buttom, the page will go show two random cards, show the name and value. 
 
 ## ⚙️ Linguagem, pacotes e ferramentas utilizadas:
 
@@ -34,10 +38,17 @@ Após clicar no botão, a página irá sortear duas cartas de um baralho de form
 **Front End**
 
 - Uma página simples para renderizar o conteúdo da API.
-- Buscar os dados do Servidor utilizando o fetch
+- Buscar os dados do Servidor utilizando o fetch.
+
+- One simple page for render API content
+- search data of server using fetch
 
 **Back End**
 
 - Criação da estrutura do servidor utilizando o express.
 - Configuração do CORS para permitir que os recursos do servidor sejam acessados.
 - Acesso a API do deckofcards para buscar os dados.
+
+- Build a server using express.
+- Config the CORS for allow that server API to be accessed.
+- Accessed deck of cards API for take the data.
